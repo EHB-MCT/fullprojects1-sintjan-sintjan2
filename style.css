@@ -225,9 +225,15 @@ nav .smartschool:hover {
 
 .header .content {
 	width: 60%;
-	margin: 19% auto 0 auto;
+	margin: 10% auto 0 auto;
+}
+
+.header .content h1 {
+	font-size: 85px;
+	line-height: 1;
 }
 
 .header .content p {
 	width: 60%;
+	font-weight: 300;
 }
