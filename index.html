@@ -1,134 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="stijl.css" />
-		<title>Stijlgids SJB</title>
-	</head>
-	<body>
-		<div id="wrapper">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Stijlgids</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1 class="bigTitle">Stijlgids</h1>
+		<div class="row">
+			<div class="colorpalet">
+				<h2>Colorpalet</h2>
+				<div class="lightgreen">#9dcc02</div>
+				<div class="darkgreen">#0b6b38</div>
+				<div class="footer">#d3d1c2</div>
+				<div class="cremewhite">#f4f5e9</div>
+				<div class="white">#ffff</div>
+			</div>
+
+			<div class="typography">
+				<h2>Typography</h2>
+				<h3>MAIN HEADING</h3>
+				<p>Bell MT | 45 pt</p>
+				<h3>ABCDEFGHIJKLMNOPQRSTUVWXYZ</h3>
+				<h3>0123456789</h3>
+				<h4>SUB HEADING</h4>
+				<p>Minion Variable Consept | 35 pt</p>
+				<h4>ABCDEFGHIJKLMNOPQRSTUVWXYZ</h4>
+				<h4>0123456789</h4>
+				<p class="segoe">Main text</p>
+				<p>Segoe UI | 16pt</p>
+				<p class="segoe">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+				<p class="segoe">abcdefghijklmnopqrstuvwxyz</p>
+				<p class="segoe">0123456789</p>
+			</div>
+
+			<div class="button">
+				<h2>Button</h2>
+				<a class="btn1">Inschrijven</a>
+				<a class="btn2">Inschrijven</a>
+			</div>
+		</div>
+
+		<br /><br /><br />
+
+
+		<div class="navigatie">
+			<h2>navigatie</h2>
+			<!--
+				<br />
+				<div class="logo">
+					<img class="logoW" src="images/logoWhite.png" alt="logoW" />
+					<img class="logoDG" src="images/logoDarkGreen.png" alt="logoDG" />
+					<img class="logoLG" src="images/logoLightGreen.png" alt="logoLG" />
+				</div>
+			-->
+			<br />
 			<div class="header">
-				<h1>Stijlgids voor Sint-Jan Berchmans</h1>
-				<p>
-					Hier onder kan je alle informatie over de huisstijl van het ontwerp
-					voor het sint-jan Bermanscollege
-				</p>
-
-				<a href="#fonts" class="buttonbasic">Typo</a>
-				<a href="#kleuren" class="buttonbasic">Kleuren</a>
-				<a href="#buttons" class="buttonbasic">Buttons</a>
-				<a href="#navigatie" class="buttonbasic">Navigatie</a>
-				<a href="#logo" class="buttonbasic">Logo</a>
-			</div>
-
-			<div class="fonts">
-				<h2 class="heading" id="fonts">Typografie</h2>
-
-				<div class="typovb">
-					<h1>Lorem ipsum dolor sit amet.</h1>
-					<p class="typodes">font: visby CF<br />font-weight: light</p>
-				</div>
-				<div class="typovb">
-					<h2>Lorem ipsum dolor sit amet.</h2>
-					<p class="typodes">font: visby CF<br />font-weight: bold</p>
-				</div>
-				<div class="typovb">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
-						feugiat mi. Praesent at neque lectus. Ut lacinia, risus at
-						scelerisque tincidunt, arcu magna vestibulum lacus, at iaculis eros
-						erat vitae neque. Pellentesque et felis eu mauris consequat egestas
-						non non sapien. Donec dictum lorem ut massa scelerisque tempor.
-					</p>
-					<p class="typodes">font: visby CF<br />font-weight: light</p>
+				<nav>
+					<a class="logo" href="#"><img src="images/logoWhite.png" alt="logoNav" /></a>
+					<a class="link" href="#">Home</a>
+					<a class="link" href="#">Studenten/ouders</a>
+					<a class="link" href="#">Studierichtingen</a>
+					<a class="link" href="#">Onze school</a>
+					<a class="link" href="#">Contact</a>
+					<a class="btn" href="#">Inschrijven</a>
+					<a class="smartschool" href="#">S</a>
+				</nav>
+				<div class="content">
+					<h1>Sint-Jan Berchmanscollege</h1>
+					<p>We zijn er rotsvast van overtuigd dat deze cura personalis voor onze leerlingen de leidraad
+						is op
+						hun weg naar volwassenheid. Met veel graagte nemen we deze uitdaging op. Libenter!</p>
 				</div>
 			</div>
-			<h2 class="heading" id="kleuren">Kleuren</h2>
-			<div class="coloruse">
-				<div class="colorbox box1">#FDFDFD</div>
-				<div class="colorbox box2">#ebebeb</div>
-				<div class="colorbox box3">#bababa</div>
-				<div class="colorbox box4">#262626</div>
-				<div class="colorbox box5">#121212</div>
-			</div>
-			<h2 class="heading" id="buttons">Buttons</h2>
-			<div class="buttonuse">
-				<a class="buttonbasic">Button</a>
-				<a class="buttonbasic buthov">Buttonhover</a>
-			</div>
-			<h2 class="heading" id="navigatie">Navigatie</h2>
-			<nav>
-				<ul>
-					<img src="logo_sint_jan_whiteg1.png" alt="" />
-					<li><a href="">Contact</a></li>
-					<li><a href="">Onze School</a></li>
-					<li><a href="">Inschrijven</a></li>
-					<li class="student">
-						<a href="">Student/Ouders</a>
-						<div class="dropdown-content">
-							<a href="#">Smartschool</a>
-							<a href="#">Preventie</a>
-							<a href="#">Kalender</a>
-							<a href="#">Projecten</a>
-							<a href="#">Olympiade</a>
-						</div>
-					</li>
 
-					<li><a class="active" href="">Home</a></li>
-				</ul>
-			</nav>
-			<nav>
-				<ul class="clearnav">
-					<img src="logo_sint_jan_blackg1.png" alt="" />
-					<li><a href="">Contact</a></li>
-					<li><a href="">Onze School</a></li>
-					<li><a href="">Inschrijven</a></li>
-					<li><a href="">Student/Ouders</a></li>
-					<li><a class="active" href="">Home</a></li>
-				</ul>
-			</nav>
-			<h2 class="heading" id="logo">Logo</h2>
-			<section>
-				<img src="logo_sint_jan_whiteg1.png" class="imgbg" /><img
-					src="logo_sint_jan_blackg1.png"
-					alt=""
-				/>
-			</section>
+			<br /><br /><br />
+
+			<div class="header">
+				<nav>
+					<a class="logo" href="#"><img src="images/logoWhite.png" alt="logoNav" /></a>
+					<a class="link" href="#">Home</a>
+					<a class="link" href="#">Studenten/ouders</a>
+					<a class="link" href="#">Studierichtingen</a>
+					<a class="link" href="#">Onze school</a>
+					<a class="link" href="#">Contact</a>
+					<a class="btn" href="#">Inschrijven</a>
+					<a class="smartschool" href="#">S</a>
+					<div class="dropdown-menu">
+						<a href="#">Eerste graad</a>
+						<a href="#">Tweede graad</a>
+						<a href="#">Derde graad</a>
+					</div>
+				</nav>
+				<div class="content">
+					<h1>Sint-Jan Berchmanscollege</h1>
+					<p>We zijn er rotsvast van overtuigd dat deze cura personalis voor onze leerlingen de leidraad
+						is op
+						hun weg naar volwassenheid. Met veel graagte nemen we deze uitdaging op. Libenter!</p>
+				</div>
+			</div>
+
+			<br /><br /><br />
 		</div>
-		<div id="customnav" class="sidenav .hide">
-			<a href="#wrapper" class="buttonbasic">Top</a>
-			<a href="#fonts" class="buttonbasic">Typo</a>
-			<a href="#kleuren" class="buttonbasic">Kleuren</a>
-			<a href="#buttons" class="buttonbasic">Buttons</a>
-			<a href="#navigatie" class="buttonbasic">Navigatie</a>
-			<a href="#logo" class="buttonbasic">Logo</a>
-		</div>
+	</div>
+</body>
 
-		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.9726489287373!2d4.36845978876294!3d50.86870609568766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c373473d12f1%3A0x5708c64f493036c1!2sRue%20Gallait%2C%201030%20Bruxelles!5e0!3m2!1sen!2sbe!4v1674131449725!5m2!1sen!2sbe"
-			width="100%"
-			height="450"
-			style="border: 0"
-			allowfullscreen=""
-			loading="lazy"
-			referrerpolicy="no-referrer-when-downgrade"
-		></iframe>
-
-		<script>
-			myID = document.getElementById("customnav");
-
-			var myScrollFunc = function () {
-				var y = window.scrollY;
-				if (y >= 500) {
-					myID.className = "sidenav show";
-				} else {
-					myID.className = "sidenav hide";
-				}
-			};
-
-			window.addEventListener("scroll", myScrollFunc);
-		</script>
-	</body>
 </html>
