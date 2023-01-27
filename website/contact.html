@@ -8,13 +8,20 @@
 		<title>Contact SJB</title>
 	</head>
 	<body>
+		<button onclick="topFunction()" id="tpBtn" title="Go to top">
+			<img src="images/up-arrow.png" alt="" />
+		</button>
+		<button onclick="semiTopFunction()" id="tpBtn2" title="Go to top">
+			Wie is Wie?
+		</button>
+
 		<nav class="background hidden">
 			<div class="navbar">
 				<div class="logo">
 					<a href="">Sint-Jan <span>Berchman</span> </a>
 				</div>
 				<div class="menu">
-					<li><a href="#">HOME</a></li>
+					<li><a href="/html/index.html">HOME</a></li>
 					<li class="dropdownlink">
 						<a href="#">ONZE SCHOOL</a>
 						<div class="dropdown-content">
@@ -28,15 +35,23 @@
 							<a href="#">Privacy</a>
 						</div>
 					</li>
-					<li><a href="#">STUDIERICHTINGEN</a></li>
+					<li>
+						<a href="/sjb-website-ERN/studierichtingen.html"
+							>STUDIERICHTINGEN</a
+						>
+					</li>
 					<li class="dropdownlink">
 						<a href="#">STUDENTEN/OUDERS</a>
 						<div class="dropdown-content">
 							<a href="#">Preventie</a>
-							<a href="#">Smartschool</a>
+							<a
+								target="_blank"
+								href="https://sint-jan-brussel.smartschool.be/login"
+								>Smartschool</a
+							>
 						</div>
 					</li>
-					<li><a class="active" href="">CONTACT</a></li>
+					<li><a class="active" href="#">CONTACT</a></li>
 					<li><a class="button">Inschrijven</a></li>
 				</div>
 			</div>
@@ -51,14 +66,14 @@
 				<div class="intro">
 					<div class="intro-text">
 						<div class="headertext">
-							<h2>Waar kan je ons vinden?</h2>
+							<h1>Waar kan je ons vinden?</h1>
 							<p>
 								Sint-jan Berchmanscollege<br />
 								Ursulinenstraat 4 <br />
 								1000 Brussel <br />
 								Belgïe
 							</p>
-							<p>Tel.: 02/512 03 70</p>
+							<p>Tel.: <a href="tel:+YOURNUMBERHERE"> 02/512 03 70</a></p>
 							<p>Secretariaat: secretariaat@sint-jan-brussel.be</p>
 						</div>
 					</div>
@@ -82,9 +97,9 @@
 			<div class="buttonverzamel">
 				<a href="#dir" class="button1">Directie</a>
 				<a href="#schoolbe" class="button1">Schoolbestuur</a>
-				<a class="button1">CLB</a>
-				<a class="button1">Ondersteunend personeel</a>
-				<a class="button1">Vertrouwensleerkrachten</a>
+				<a href="#clb" class="button1">CLB</a>
+
+				<a href="#VL" class="button1">Vertrouwensleerkrachten</a>
 				<a class="button1">Zorgteam</a>
 				<a class="button1">Campusraad</a>
 				<a class="button1">Schoolraad</a>
@@ -95,58 +110,179 @@
 			</div>
 		</div>
 		<div id="dir" class="header2">
-			<h3>Directie</h3>
+			<h3>DIRECTIE</h3>
 			<div id="wrapper" class="directie">
 				<div class="persooncard">
 					<img src="images/profil.png" alt="" />
 					<p>
-						Directeur<br />DE DECKER Anne-Sophie<br />adedecker@sint-jan-brussel.be<br />02/512
-						03 70
+						Directeur<br />De Decker Anne-Sophie<br />adedecker@sint-jan-brussel.be<br /><a
+							href="tel:+YOURNUMBERHERE"
+							>02/512 03 70</a
+						>
 					</p>
 				</div>
 				<div class="persooncard">
 					<img src="images/profil.png" alt="" />
 					<p>
-						Directeur<br />DE DECKER Anne-Sophie<br />adedecker@sint-jan-brussel.be<br />02/512
-						03 70
+						Adjunct-directeur<br />Harding Neal<br />nharding@sint-jan-brussel.be<br /><a
+							href="tel:+YOURNUMBERHERE"
+							>02/512 03 70</a
+						>
 					</p>
 				</div>
 			</div>
 		</div>
 		<div id="schoolbe" class="header3">
-			<h3>Schoolbestuur</h3>
+			<h3>SCHOOLBESTUUR</h3>
 			<div id="wrapper" class="directie">
 				<div class="persooncard">
 					<img src="images/profil.png" alt="" />
 					<p>
-						Directeur<br />DE DECKER Anne-Sophie<br />adedecker@sint-jan-brussel.be<br />02/512
-						03 70
+						VZW Cebeco<br />Vertegenwoordigd door<br />Bob Van De Putte<br />
+					</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Voorzitter<br />Joris Tiebout</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>afgevaardigd bestuurder<br />Eddy Van de Velde</p>
+				</div>
+
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Bart De Moor</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Goedele Wynants</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Anne Louwagie</p>
+				</div>
+
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Katrien Leveugle</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Anne De Man-Baert</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Herman De Cnijf</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Eddy Pauwels</p>
+				</div>
+			</div>
+		</div>
+		<div id="clb" class="header2">
+			<h3>CLB</h3>
+			<div id="wrapper" class="directie">
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>
+						psychopedagogisch consulent<br />Heleen Denis<br /><a
+							href="tel:+YOURNUMBERHERE"
+							>0490 / 11 76 29</a
+						>
 					</p>
 				</div>
 				<div class="persooncard">
 					<img src="images/profil.png" alt="" />
 					<p>
-						Directeur<br />DE DECKER Anne-Sophie<br />adedecker@sint-jan-brussel.be<br />02/512
-						03 70
+						schoolarts<br />Tatiana Dimiaux<br /><a href="tel:+YOURNUMBERHERE"
+							>02/512 30 05</a
+						>
+					</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>
+						paramedisch werker<br />Tinneke Degreef<br /><a
+							href="tel:+YOURNUMBERHERE"
+							>02/512 30 05</a
+						>
 					</p>
 				</div>
 			</div>
 		</div>
+		<div id="VL" class="header3">
+			<h3>VERTROUWENSLEERKRACHTEN</h3>
+			<div id="wrapper" class="directie">
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Mevr. Sabrina Thirry<br />sthirry@sint-jan-brussel.be</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Dhr. Kobe Kennes<br />kkennes@sint-jan-brussel.be</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Mevr. Mona De Meyer<br />mdemeyer@sint-jan-brussel.be</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>
+						Mevr. Karen de Ceukelaire<br />kdeceukelaire@sint-jan-brussel.be
+					</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Dhr. Yannick Van Laethem<br />yvanlaethem@sint-jan-brussel.be</p>
+				</div>
+				<div class="persooncard">
+					<img src="images/profil.png" alt="" />
+					<p>Dhr. Maarten Meulemans<br />mmeulemans@sint-jan-brussel.be</p>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<div class="img"></div>
+				<div class="text">
+					<p>© 2023 Sint-Jan Berchmanscollege</p>
+					<a href="#">Contact</a>
+					<a href="#">Privacy</a>
+				</div>
+			</div>
+		</footer>
 		<script>
+			let topbutton = document.getElementById("tpBtn");
+			let topbutton2 = document.getElementById("tpBtn2");
 			window.onscroll = function () {
 				if (
 					document.body.scrollTop > 100 ||
 					document.documentElement.scrollTop > 100
 				) {
+					topbutton.style.display = "block";
+					topbutton2.style.display = "block";
 					document.querySelector(".navbar").style.top = "0";
 					document.querySelector(".navbar").style.position = "fixed";
 					document.querySelector(".navbar").classList.add("scrolled");
 				} else {
+					topbutton.style.display = "none";
+					topbutton2.style.display = "none";
 					document.querySelector(".navbar").style.top = "";
 					document.querySelector(".navbar").style.position = "absolute";
 					document.querySelector(".navbar").classList.remove("scrolled");
 				}
 			};
+
+			function semiTopFunction() {
+				document.body.scrollTop = 1200;
+				document.documentElement.scrollTop = 1200;
+			}
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
 		</script>
 	</body>
 </html>
