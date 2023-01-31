@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/studieStyle.css" />
+		<link rel="stylesheet" href="../css/master.css" />
+		<title>Studierichtingen</title>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="tpBtn" title="Go to top">
+			<img src="../images/up-arrow.png" alt="" />
+		</button>
+		<nav class="background hidden">
+			<div class="navbar">
+				<div class="logo">
+					<a href="">Sint-Jan <span>Berchman</span> </a>
+				</div>
+				<div class="menu">
+					<li><a href="../index.html">HOME</a></li>
+					<li class="dropdownlink">
+						<a href="#">ONZE SCHOOL</a>
+						<div class="dropdown-content">
+							<a href="#">Jaar thema</a>
+							<a href="#">School visie</a>
+							<a href="#">Jan Berchman</a>
+							<a href="#">Historiek</a>
+							<a href="#">Motto</a>
+							<a href="#">Leef regels</a>
+							<a href="#">Opvoedingsproject</a>
+							<a href="#">Privacy</a>
+						</div>
+					</li>
+					<li>
+						<a href="/sjb-website-ERN/studierichtingen.html"
+							>STUDIERICHTINGEN</a
+						>
+					</li>
+					<li class="dropdownlink">
+						<a href="#">STUDENTEN/OUDERS</a>
+						<div class="dropdown-content">
+							<a href="#">Preventie</a>
+							<a
+								target="_blank"
+								href="https://sint-jan-brussel.smartschool.be/login"
+								>Smartschool</a
+							>
+						</div>
+					</li>
+					<li><a class="active" href="contact.html">CONTACT</a></li>
+					<li><a class="button">Inschrijven</a></li>
+				</div>
+			</div>
+		</nav>
+
+		<div class="blue">
+			<div class="geel">
+				<div class="helpcenter"></div>
+			</div>
+
+			<div class="bro">
+				<div class="intro">
+					<div class="intro-text">
+						<h1>Studierichtingen</h1>
+						<p>
+							Onze school biedt les aan voor leerlingen uit de eerste tweede en
+							derde graad van het secundair onderwijs. Er zijn veel keuzevakken
+							beschikbaar,waaronder muziek, ict, kunst en sport. Leerlingen
+							kunnen hun eigen interesses volgen en zich ontwikkelen op hun
+							eigen manier.
+						</p>
+					</div>
+					<img src="../images/classroom.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="under">
+				<h1 class="firstGrade">eerste graad</h1>
+				<div class="pair">
+					<div class="left-1">
+						<div class="text">
+							<h1>eerste jaar</h1>
+							<a href="#">Lees meer</a>
+						</div>
+					</div>
+					<div class="right-1">
+						<div class="text">
+							<h1>tweede jaar</h1>
+							<a href="#">Lees meer</a>
+						</div>
+					</div>
+				</div>
+
+				<h1 class="balk">tweede graad</h1>
+				<div class="pair">
+					<div class="left-2">
+						<div class="text">
+							<h1>derde jaar</h1>
+							<a href="#">Lees meer</a>
+						</div>
+					</div>
+					<div class="right-2">
+						<div class="text">
+							<h1>vierde jaar</h1>
+							<a href="#">Lees meer</a>
+						</div>
+					</div>
+				</div>
+
+				<h1 class="balk">derde graad</h1>
+				<div class="pair">
+					<div class="full">
+						<div class="text">
+							<h1>vijfde & zesde jaar</h1>
+							<a href="#">Lees meer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div>
+				<div class="img"></div>
+				<div class="text">
+					<p>© 2023 Sint-Jan Berchmanscollege</p>
+					<a href="contact.html">Contact</a>
+					<a href="#">Privacy</a>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			let topbutton = document.getElementById("tpBtn");
+
+			window.onscroll = function () {
+				if (
+					document.body.scrollTop > 100 ||
+					document.documentElement.scrollTop > 100
+				) {
+					topbutton.style.display = "block";
+
+					document.querySelector(".navbar").style.top = "0";
+					document.querySelector(".navbar").style.position = "fixed";
+					document.querySelector(".navbar").classList.add("scrolled");
+				} else {
+					topbutton.style.display = "none";
+
+					document.querySelector(".navbar").style.top = "";
+					document.querySelector(".navbar").style.position = "absolute";
+					document.querySelector(".navbar").classList.remove("scrolled");
+				}
+			};
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+	</body>
+</html>

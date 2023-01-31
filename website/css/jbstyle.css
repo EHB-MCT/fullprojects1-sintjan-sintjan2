@@ -1,0 +1,34 @@
+.introjb {
+	display: flex;
+	justify-content: left;
+}
+
+.janB {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+	align-items: center;
+}
+
+.janInfo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.janInfo img {
+	width: 30%;
+	border-right: solid 5px #ffc300;
+	padding-right: 3%;
+}
+
+.janInfo p {
+	flex: 1;
+	margin-left: 3%;
+}
+
+.headergeel {
+	background-color: #ffc300;
+}

@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "dmsans-heavy";
+	src: url("../fonts/DMSans-Bold.ttf");
+}
+
+.button1 {
+	border: 4px solid #ffc300;
+	background-color: #ffc300;
+	border-radius: 10px;
+	color: #fdfdfd;
+	font-family: "DMSr";
+	cursor: pointer;
+	font-size: 1.4vw;
+	padding: 11px 30px;
+	text-decoration: none;
+	transition: 0.5s;
+	margin: 3%;
+	width: 20%;
+}
+
+.button1:hover {
+	background-color: transparent;
+	border: 4px solid #ffc300;
+	color: #ffc300;
+}
+
+/*header */
+
+.header {
+	background-color: #e5ac00;
+	padding-top: 200px;
+	padding-bottom: 5%;
+}
+
+.headertext {
+	color: white;
+	padding-top: 10%;
+}
+
+/* wie is wie */
+
+.wieiswie {
+	text-align: center;
+	color: black;
+	padding-top: 3%;
+	flex-direction: column;
+	margin-top: 10%;
+}
+
+div h3 {
+	font-family: "dmsans-heavy";
+	color: black;
+	font-size: 3.8vw;
+}
+
+.buttonverzamel {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 5%;
+}
+
+/* directeur card */
+
+.header2 {
+	background-color: #e6e6e6;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.directie {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.persooncard {
+	width: 400px;
+	margin-bottom: 5%;
+}
+
+.persooncard img {
+	width: 40%;
+}
+
+/* schoolbestuur */
+
+.header3 {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#VL {
+	padding-bottom: 20%;
+}
