@@ -39,19 +39,18 @@ h1 {
 }
 
 .logo {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .logo a {
   font-family: "dmsans-bold";
-  font-size: 60px;
   text-decoration: none;
   color: #167ce9;
-  font-size: 3.8vw;
+  font-size: 3vw;
 }
 .menu {
   display: flex;
   gap: 20px;
-  margin-right: 5%;
+  margin-right: 3%;
   align-items: center;
 }
 .menu li {
