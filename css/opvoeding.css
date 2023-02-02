@@ -1,0 +1,60 @@
+@font-face {
+	font-family: PPneue;
+	src: url("font/PPNeueWorld-Regular.otf");
+}
+
+@font-face {
+	font-family: DMSm;
+	src: url(font/DMSans-Medium.ttf);
+}
+
+@font-face {
+	font-family: DMSr;
+	src: url(font/DMSans-Regular.ttf);
+}
+
+.intro {
+	display: flex;
+}
+
+.headertext {
+	display: flex;
+	padding-top: 25%;
+	margin-left: 8%;
+}
+
+.introtwee {
+	display: flex;
+	padding-left: 3%;
+}
+
+.tweede {
+	display: flex;
+	padding-left: 5%;
+	margin-top: 5%;
+	padding-top: 5%;
+}
+
+.tel {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	padding-bottom: 20%;
+}
+
+.tel p {
+	font-size: medium;
+}
+
+.introtwee img {
+	width: 45%;
+	height: 45%;
+}
+
+.text {
+	margin-left: 8%;
+}
+
+.witteheader {
+	background-color: #f1f1f1;
+}

@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/home.css" />
 		<link rel="stylesheet" href="css/master.css" />
+		<link rel="shortcut icon" type="image/png" href="/images/miniLogo.png" />
 		<title>home</title>
 	</head>
 	<body>
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="index.html">HOME</a>
+				<a onclick="openDrop()" href="#">ONZE SCHOOL</a>
+				<a href="/pages/studierichtingen2.html">STUDIERICHTINGEN</a>
+				<a onclick="openDrop2()" href="#">STUDENTEN/OUDERS</a>
+				<a href="/pages/contact.html">CONTACT</a>
+				<a href="/pages/inschrijvingen.html">INSCHRIJVEN</a>
+			</div>
+		</div>
+		<div id="myNavdropdown" class="overlay2">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()"
+				>&times;</a
+			>
+			<div class="overlay2-content">
+				<a href="/pages/jaarthema.html">JAAR THEMA</a>
+				<a href="/pages/schoolvisie.html">SCHOOL VISIE</a>
+				<a href="/pages/janberchman.html">JAN BERCHMAN</a>
+
+				<a href="/pages/historiek.html">HISTORIEK</a>
+				<a href="/pages/opvoeding.html">OPVOEDINGSPROJECT</a>
+				<a href="/pages/privacy.html">PRIVACY</a>
+			</div>
+		</div>
+		<div id="myNavdropdown2" class="overlay3">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav3()"
+				>&times;</a
+			>
+			<div class="overlay3-content">
+				<a href="#">PREVENTIE</a>
+				<a href="https://sint-jan-brussel.smartschool.be/login">SMARTSCHOOL</a>
+			</div>
+		</div>
 		<button onclick="topFunction()" id="tpBtn" title="Go to top">
 			<img src="../images/up-arrow.png" alt="" />
 		</button>
 		<nav class="background hidden">
 			<div class="navbar">
 				<div class="logo">
-					<a href="">Sint-Jan <span>Berchman</span> </a>
+					<a href="">Sint-Jan <span>Berchmanscollege</span> </a>
 				</div>
 				<div class="menu">
 					<li><a href="#">HOME</a></li>
 					<li class="dropdownlink">
 						<a href="#">ONZE SCHOOL</a>
 						<div class="dropdown-content">
-							<a href="#">Jaar thema</a>
-							<a href="#">School visie</a>
+							<a href="/pages/jaarthema.html">Jaar thema</a>
+							<a href="/pages/schoolvisie.html">School visie</a>
 							<a href="pages/janberchman.html">Jan Berchman</a>
-							<a href="#">Historiek</a>
-							<a href="#">Motto</a>
-							<a href="#">Leef regels</a>
-							<a href="#">Opvoedingsproject</a>
-							<a href="#">Privacy</a>
+							<a href="/pages/historiek.html">Historiek</a>
+
+							<a href="/pages/opvoeding.html">Opvoedingsproject</a>
+							<a href="/pages/privacy.html">Privacy</a>
 						</div>
 					</li>
 					<li>
-						<a href="/pages/studierichtingen.html">STUDIERICHTINGEN</a>
+						<a href="/pages/studierichtingen2.html">STUDIERICHTINGEN</a>
 					</li>
 					<li class="dropdownlink">
 						<a href="#">STUDENTEN/OUDERS</a>
@@ -47,7 +83,17 @@
 						</div>
 					</li>
 					<li><a class="active" href="/pages/contact.html">CONTACT</a></li>
-					<li><a class="button">Inschrijven</a></li>
+					<li>
+						<a href="/pages/inschrijvingen.html" class="button">Inschrijven</a>
+					</li>
+					<li>
+						<span
+							class="hamburg"
+							style="font-size: 30px; cursor: pointer"
+							onclick="openNav()"
+							>&#9776;
+						</span>
+					</li>
 				</div>
 			</div>
 		</nav>
@@ -55,6 +101,7 @@
 		<div class="blue">
 			<div class="geel">
 				<video
+					class="bg-vid"
 					width="100%"
 					autoplay
 					muted
@@ -63,46 +110,42 @@
 					type="video/mp4"
 				></video>
 			</div>
-		</div>
-		<div class="bro">
-			<div class="intro">
-				<div class="intro-texthome">
-					<h1>
-						Welkom op <br />
-						Sint-Jan Berchmanscollege <br />
-						<span class="titel"> Het hart van Brussel</span>
-					</h1>
+			<div class="bro">
+				<div class="intro-home">
+					<div class="intro-textHome">
+						<h1>
+							Sint-Jan Berchmanscollege <br />
+							<span class="titel"> Het hart van Brussel</span>
+						</h1>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="helpcenter">
-			<li>
+			<div class="helpcenter1">
 				<div class="title"><h1>STUDENTEN</h1></div>
 
-				<img src="images/studenten.png" />
 				<div class="button1">
-					<a href="#">SMARTSCHOOL</a>
-					<a href="#">KALENDER</a>
+					<a href="https://sint-jan-brussel.smartschool.be/login"
+						>SMARTSCHOOL</a
+					>
 				</div>
-			</li>
-			<li>
+			</div>
+			<div class="helpcenter2">
 				<div class="title"><h1>WAT BIEDEN WE AAN</h1></div>
 
-				<img src="images/wat bieden we aan.png" />
 				<div class="button2">
-					<a href="#"> ACTIVITEITEN</a>
-					<a href="#">LEERPLAN</a>
+					<a href="#"> RICHTINGEN</a>
+					<a href="#">HISTORIEK</a>
 				</div>
-			</li>
-			<li>
+			</div>
+			<div class="helpcenter3">
 				<div class="title"><h1>WERK BIJ ONS</h1></div>
-
-				<img src="images/vacatrures.png" />
 				<div class="button3">
 					<a href="#"> VACATURES</a>
 				</div>
-			</li>
+			</div>
 		</div>
 
 		<div class="visie">
@@ -115,7 +158,6 @@
 				<p>
 					We vormen bekwame burgers die hun maatschappelijke
 					vernatwoordelijkheid nemen. <br />
-					<br />
 					ons onderwijs legt zich niet alleen toe op intellectuele vorming. Het
 					gaat veel breder . Behalve naar kennisopbouw streven we ook naar
 					osciaal-emotionele, afectieve, technische, sportieve, culturele en
@@ -140,14 +182,14 @@
 				<a href="#" class="bruh5">WeTI</a>
 			</div>
 			<div class="button-studie">
-				<a href="#">bekijk alle studierichtingen</a>
+				<a href="/pages/studierichtingen2.html">bekijk alle studierichtingen</a>
 			</div>
 		</div>
 		<div class="ignareeh">
-			<div><img src="/images/ignatianse.png" /></div>
+			<div class="ignareeh-img"><img src="/images/ignatianse.png" /></div>
 			<div class="text-ignareeh">
 				<h1>
-					<span class="blauw"> Ignatianse</span> pedagogie <br />
+					<span class="blauw"> Ignatiaanse</span> pedagogie <br />
 					in <span class="blauw">10</span> bewegingen <br />
 				</h1>
 
@@ -163,7 +205,7 @@
 					lesgeven aan cognitieve begaafdheid
 				</p>
 				<div class="button-ignareeh">
-					<a href="#">lees meer</a>
+					<a href="/pages/opvoeding.html">lees meer</a>
 				</div>
 			</div>
 		</div>
@@ -200,9 +242,37 @@
 				}
 			};
 
+			function semiTopFunction() {
+				document.body.scrollTop = 1200;
+				document.documentElement.scrollTop = 1200;
+			}
 			function topFunction() {
 				document.body.scrollTop = 0;
 				document.documentElement.scrollTop = 0;
+			}
+
+			function openDrop2() {
+				document.getElementById("myNavdropdown2").style.width = "100%";
+			}
+			function closeNav3() {
+				document.getElementById("myNavdropdown2").style.width = "0%";
+			}
+
+			function openDrop() {
+				document.getElementById("myNavdropdown").style.width = "100%";
+			}
+			function closeNav2() {
+				document.getElementById("myNavdropdown").style.width = "0%";
+			}
+
+			function openNav() {
+				document.getElementById("myNav").style.height = "100%";
+				document.querySelector(".hamburg").style.display = "none";
+			}
+
+			function closeNav() {
+				document.getElementById("myNav").style.height = "0%";
+				document.querySelector(".hamburg").style.display = "block";
 			}
 		</script>
 	</body>

@@ -8,7 +8,7 @@
 	background-color: #ffc300;
 	border-radius: 10px;
 	color: #fdfdfd;
-	font-family: "DMSr";
+	font-family: "dmsans-heavy";
 	cursor: pointer;
 	font-size: 1.4vw;
 	padding: 11px 30px;
@@ -35,6 +35,7 @@
 .headertext {
 	color: white;
 	padding-top: 10%;
+	padding-left: 3%;
 }
 
 /* wie is wie */
@@ -44,7 +45,6 @@
 	color: black;
 	padding-top: 3%;
 	flex-direction: column;
-	margin-top: 10%;
 }
 
 div h3 {

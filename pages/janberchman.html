@@ -6,9 +6,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../css/jbstyle.css" />
 		<link rel="stylesheet" href="../css/master.css" />
+		<link rel="shortcut icon" type="image/png" href="../images/miniLogo.png" />
 		<title>Contact SJB</title>
 	</head>
 	<body>
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+			<div class="overlay-content">
+				<a href="../index.html">HOME</a>
+				<a onclick="openDrop()" href="#">ONZE SCHOOL</a>
+				<a href="studierichtingen2.html">STUDIERICHTINGEN</a>
+				<a onclick="openDrop2()" href="#">STUDENTEN/OUDERS</a>
+				<a href="contact.html">CONTACT</a>
+				<a href="#">INSCHRIJVEN</a>
+			</div>
+		</div>
+		<div id="myNavdropdown" class="overlay2">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav2()"
+				>&times;</a
+			>
+			<div class="overlay2-content">
+				<a href="jaarthema.html">JAAR THEMA</a>
+				<a href="schoolvisie.html">SCHOOL VISIE</a>
+				<a href="janberchman.html">JAN BERCHMAN</a>
+				<a href="historiek.html">HISTORIEK</a>
+				<a href="opvoeding.html">OPVOEDINGSPROJECT</a>
+				<a href="privacy.html">PRIVACY</a>
+			</div>
+		</div>
+		<div id="myNavdropdown2" class="overlay3">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav3()"
+				>&times;</a
+			>
+			<div class="overlay3-content">
+				<a href="#">PREVENTIE</a>
+				<a href="#">SCHOOL VISIE</a>
+			</div>
+		</div>
+
 		<button onclick="topFunction()" id="tpBtn" title="Go to top">
 			<img src="../images/up-arrow.png" alt="" />
 		</button>
@@ -16,25 +53,23 @@
 		<nav class="background hidden">
 			<div class="navbar">
 				<div class="logo">
-					<a href="">Sint-Jan <span>Berchman</span> </a>
+					<a href="">Sint-Jan <span>Berchmanscollege</span> </a>
 				</div>
 				<div class="menu">
 					<li><a href="../index.html">HOME</a></li>
 					<li class="dropdownlink">
 						<a href="#">ONZE SCHOOL</a>
 						<div class="dropdown-content">
-							<a href="#">Jaar thema</a>
-							<a href="#">School visie</a>
-							<a href="#">Jan Berchman</a>
-							<a href="#">Historiek</a>
-							<a href="#">Motto</a>
-							<a href="#">Leef regels</a>
-							<a href="#">Opvoedingsproject</a>
-							<a href="#">Privacy</a>
+							<a href="jaarthema.html">Jaar thema</a>
+							<a href="schoolvisie.html">School visie</a>
+							<a href="janberchman.html">Jan Berchman</a>
+							<a href="historiek.html">Historiek</a>
+							<a href="opvoeding.html">Opvoedingsproject</a>
+							<a href="privacy.html">Privacy</a>
 						</div>
 					</li>
 					<li>
-						<a href="studierichtingen.html">STUDIERICHTINGEN</a>
+						<a href="studierichtingen2.html">STUDIERICHTINGEN</a>
 					</li>
 					<li class="dropdownlink">
 						<a href="#">STUDENTEN/OUDERS</a>
@@ -49,6 +84,14 @@
 					</li>
 					<li><a class="active" href="#">CONTACT</a></li>
 					<li><a class="button">Inschrijven</a></li>
+					<li>
+						<span
+							class="hamburg"
+							style="font-size: 30px; cursor: pointer"
+							onclick="openNav()"
+							>&#9776;
+						</span>
+					</li>
 				</div>
 			</div>
 		</nav>
@@ -57,46 +100,49 @@
 			<div class="geel">
 				<div class="introjb">
 					<img src="../images/JAN.png" alt="" />
+					<div class="intro-text janIntro">
+						<h1>Wie is Jan Berchmans?</h1>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="bro"></div>
 
 		<div class="janB">
-			<h1>Jan Berchmans</h1>
 			<div class="janInfo">
 				<img src="../images/jaune.jpg" alt="" />
-				<p>
-					Ons college draagt de naam van de jezuïet Jan Berchmans die in 1599
-					het levenslicht zag in Diest.Zijn korte leven verlooptin een voor
-					Europa turbulente, maar ook creatieve en expansieve tijd. De
-					kinderjaren spelen zich af tegen een achtergrond vol krijgslawaai. De
-					oorlog woedt hevig in Noord-Brabant en de belegering van Oostende
-					(1601-1604) kost aan meer dan honderdduizend mensen het leven.<br /><br />Het
-					korte leven van Jan Berchmans sluit aan bij de onstuimige dynamiek van
-					zijn tijd. Hij droomt ervan als missionaris in het woelige Europa of
-					aan de overzijde van deoceanen te getuigen van het Evangelie. Daarop
-					bereidt hij zich vanaf 1619 in Rome voor.Een korte ziekte maakt
-					evenwel in de zomer van 1621 onverwacht een einde aan zijn leven.
-				</p>
+				<div class="janText">
+					<h1>Jan Berchmans</h1>
+					<p>
+						Ons college draagt de naam van de jezuïet Jan Berchmans die in 1599
+						het levenslicht zag in Diest.Zijn korte leven verlooptin een voor
+						Europa turbulente, maar ook creatieve en expansieve tijd. De
+						kinderjaren spelen zich af tegen een achtergrond vol krijgslawaai.
+						De oorlog woedt hevig in Noord-Brabant en de belegering van Oostende
+						(1601-1604) kost aan meer dan honderdduizend mensen het leven.<br /><br />Het
+						korte leven van Jan Berchmans sluit aan bij de onstuimige dynamiek
+						van zijn tijd. Hij droomt ervan als missionaris in het woelige
+						Europa of aan de overzijde van deoceanen te getuigen van het
+						Evangelie. Daarop bereidt hij zich vanaf 1619 in Rome voor.Een korte
+						ziekte maakt evenwel in de zomer van 1621 onverwacht een einde aan
+						zijn leven.
+					</p>
+				</div>
 			</div>
 		</div>
 
 		<div class="janB headergeel">
-			<h1>Jan Berchmans</h1>
-
 			<p>
-				Ons college draagt de naam van de jezuïet Jan Berchmans die in 1599 het
-				levenslicht zag in Diest.Zijn korte leven verlooptin een voor Europa
-				turbulente, maar ook creatieve en expansieve tijd. De kinderjaren spelen
-				zich af tegen een achtergrond vol krijgslawaai. De oorlog woedt hevig in
-				Noord-Brabant en de belegering van Oostende (1601-1604) kost aan meer
-				dan honderdduizend mensen het leven.<br /><br />Het korte leven van Jan
-				Berchmans sluit aan bij de onstuimige dynamiek van zijn tijd. Hij droomt
-				ervan als missionaris in het woelige Europa of aan de overzijde van
-				deoceanen te getuigen van het Evangelie. Daarop bereidt hij zich vanaf
-				1619 in Rome voor.Een korte ziekte maakt evenwel in de zomer van 1621
-				onverwacht een einde aan zijn leven.
+				Door deze vroege dood is de levensdroom van Jan Berchmans niet in
+				vervulling gegaan. Maar de medestudenten, professoren en kardinalen die
+				hem in Rome gekend hadden, waren diep onder de indruk van zijn briljante
+				intelligentie, zijn affectieve rijpheid, zijn geestelijk leven en
+				mystieke eenheid met God.
+			</p>
+			<p>
+				Al was hij nog maar 22 jaar, Jan had reeds alles wat hij had en was
+				geïnvesteerd in zijn levensproject : diep in God leven, opdatGod door
+				hem vele mensen zou kunnen aanraken en voor Hem openen.
 			</p>
 		</div>
 
@@ -139,6 +185,30 @@
 			function topFunction() {
 				document.body.scrollTop = 0;
 				document.documentElement.scrollTop = 0;
+			}
+
+			function openDrop2() {
+				document.getElementById("myNavdropdown2").style.width = "100%";
+			}
+			function closeNav3() {
+				document.getElementById("myNavdropdown2").style.width = "0%";
+			}
+
+			function openDrop() {
+				document.getElementById("myNavdropdown").style.width = "100%";
+			}
+			function closeNav2() {
+				document.getElementById("myNavdropdown").style.width = "0%";
+			}
+
+			function openNav() {
+				document.getElementById("myNav").style.height = "100%";
+				document.querySelector(".hamburg").style.display = "none";
+			}
+
+			function closeNav() {
+				document.getElementById("myNav").style.height = "0%";
+				document.querySelector(".hamburg").style.display = "block";
 			}
 		</script>
 	</body>

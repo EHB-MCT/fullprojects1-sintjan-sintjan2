@@ -1,0 +1,76 @@
+.text-jaarthema {
+	margin-left: 40px;
+	margin-bottom: 200px;
+	padding: 50px;
+}
+.alinea {
+	margin-top: 50px;
+}
+
+.intro img {
+	width: 700px;
+	margin-left: 10px;
+}
+.intro-text {
+	margin-right: 10px;
+	color: white;
+}
+.jaarthema {
+	height: 960px;
+}
+.geeljaarthema {
+	height: 800px;
+}
+@media (max-width: 1500px) {
+	.intro img {
+		width: 550px;
+		margin-left: 10px;
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 1380px) {
+	.intro img {
+		width: 40%;
+		margin-left: 5%;
+		margin-bottom: 10%;
+	}
+}
+@media (max-width: 1280px) {
+	.intro img {
+		width: 40%;
+		margin-left: 5%;
+		margin-bottom: 18%;
+	}
+}
+@media (max-width: 1160px) {
+	.intro img {
+		width: 40%;
+		margin-left: 5%;
+		margin-bottom: 25%;
+	}
+}
+@media (max-width: 1060px) {
+	.intro img {
+		width: 40%;
+		margin-left: 5%;
+		margin-top: 20%;
+	}
+}
+@media (max-width: 1000px) {
+	.intro img {
+		width: 100%;
+		margin: 5%;
+	}
+	.intro {
+		display: flex;
+		flex-direction: column;
+		height: 1200px;
+		align-items: center;
+		margin-right: 5%;
+		margin-left: 5%;
+		list-style: none;
+	}
+	.geeljaarthema {
+		height: 1100px;
+	}
+}

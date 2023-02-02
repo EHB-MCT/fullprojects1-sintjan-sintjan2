@@ -1,3 +1,10 @@
+.intro-home {
+	position: relative;
+	margin-left: 50%;
+	color: #fdfdfd;
+	top: 150px;
+}
+
 .contact {
 	display: flex;
 	justify-content: center;
@@ -21,27 +28,64 @@
 	color: #167ce9;
 }
 
+.helpcenter img {
+	width: 100%;
+}
+
 .helpcenter {
 	list-style: none;
 	display: flex;
 	gap: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 30%;
+	margin: 5% 5% 5% 5%;
 }
 
-.helpcenter img {
-	max-width: 100%;
+.helpcenter1 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-image: url(/images/studenten.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	flex: 1;
+	height: 20vw;
+}
+
+.helpcenter2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(/images/wat\ bieden\ we\ aan.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.helpcenter3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(/images/vacatrures.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.helpcenter h1 {
+	font-family: "dmsans-bold";
+	color: #fdfdfd;
+	font-size: 3vw;
+	margin: 0;
+	padding-top: 5vw;
+	text-align: center;
 }
 
 .button1,
 .button2,
 .button3 {
 	display: flex;
-	position: relative;
 	gap: 5px;
-	bottom: 60px;
 }
+
 .button1 a,
 .button2 a,
 .button3 a {
@@ -49,30 +93,23 @@
 	font-family: "DM sans";
 	text-decoration: none;
 	color: #fdfdfd;
-	font-size: 20px;
+	font-size: 1.5vw;
 	background-color: rgba(255, 255, 255, 0.297);
 	padding: 15px;
 	text-align: center;
+	transition: 0.4s;
 }
 
 .button1 a:hover,
 .button2 a:hover,
 .button3 a:hover {
 	background-color: #167ce9;
-}
-.helpcenter h1 {
-	font-family: "dmsans-bold";
-	color: #fdfdfd;
-	margin: 0;
-	position: relative;
-	text-align: center;
-	top: 90px;
+	border-bottom: none;
 }
 
 .visie {
 	display: flex;
 	margin-left: 2%;
-	margin-top: 10%;
 }
 
 .visie img {
@@ -88,15 +125,15 @@
 	border-radius: 30px;
 	color: #fdfdfd;
 	position: absolute;
-	padding: 10px 80px 30px 80px;
+	padding: 30px 80px 30px 80px;
 	left: 15%;
-	margin-top: 20%;
+	margin-top: 25%;
 
 	max-width: 40%;
 }
 .text-visie P {
 	font-family: "DM sans";
-	font-size: 18px;
+	font-size: 1.2vw;
 	line-height: 1.5;
 }
 
@@ -106,6 +143,7 @@
 	font-weight: 300;
 	font-size: 3.8vw;
 	width: 100%;
+	margin: 0;
 }
 
 .ooo {
@@ -134,7 +172,7 @@
 	height: 400px;
 	display: flex;
 	width: 100%;
-	height: 100%;
+	height: 700px;
 }
 .studie-aanbod a {
 	display: flex;
@@ -163,7 +201,6 @@
 	background-repeat: no-repeat;
 
 	width: 20%;
-	height: 700px;
 	text-align: center;
 }
 .bruh2 {
@@ -240,12 +277,8 @@
 }
 
 .text-ignareeh p {
-	font-size: 18px;
+	font-size: 1.2vw;
 	line-height: 1.5;
-}
-
-.title {
-	position: absolute;
 }
 
 .blauw {
@@ -271,4 +304,222 @@
 	background-color: transparent;
 	border: 4px solid #ffc300;
 	color: #ffc300;
+}
+
+@media (max-width: 1015px) {
+	.visie {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		align-items: center;
+	}
+	.text-visie {
+		display: flex;
+		justify-content: center;
+
+		display: block;
+		left: 0;
+
+		position: static;
+		margin: 0;
+		margin-top: 20px;
+
+		max-width: 70%;
+		text-align: center;
+	}
+
+	.text-visie p {
+		max-width: 70%;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.ignareeh {
+		display: flex;
+		justify-content: center;
+		gap: 9vw;
+		margin: 0;
+	}
+	.ignareeh img {
+		padding-right: 4%;
+		width: 40vw;
+	}
+
+	.ooo {
+		margin-top: 5%;
+	}
+	.text-ignareeh {
+		margin-left: 0;
+		max-width: min-content;
+	}
+
+	.pic4 {
+		height: 400px;
+	}
+
+	.bruh1,
+	.bruh5 {
+		margin: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.bro {
+		height: 300px;
+	}
+	.helpcenter {
+		display: flex;
+
+		flex-direction: column;
+		margin: 5% 5% 0% 5%;
+		height: 200vw;
+		gap: 10%;
+	}
+
+	.pic4 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bruh1 {
+		background-image: url(/images/cropped\ it.png);
+	}
+	.bruh2 {
+		background-image: url(/images/cropped\ lat.png);
+	}
+	.bruh3 {
+		background-image: url(/images/cropped\ cbw.png);
+	}
+	.bruh4 {
+		background-image: url(/images/cropped\ mus.png);
+		margin-left: -1px;
+	}
+	.bruh5 {
+		background-image: url(/images/cropped\ sci.png);
+	}
+	.bruh1,
+	.bruh2,
+	.bruh3,
+	.bruh4,
+	.bruh5 {
+		width: 100%;
+		background-size: 100%;
+		height: 200px;
+	}
+
+	.helpcenter h1 {
+		font-size: 20px;
+	}
+
+	.helpcenter a {
+		font-size: 12px;
+	}
+
+	.ooo {
+		margin-top: 0px;
+	}
+	.ooo h1 {
+		font-size: 30px;
+	}
+
+	.visie {
+		overflow: hidden;
+	}
+	.visie img {
+		width: 80%;
+		overflow: hidden;
+		margin-bottom: 50px;
+		order: 2;
+		border-top: 4px solid #ffc300;
+		padding-top: 20px;
+	}
+
+	#tpBtn {
+		-webkit-box-shadow: 3px 16px 26px 11px rgba(0, 0, 0, 0.36);
+		-moz-box-shadow: 3px 16px 26px 11px rgba(0, 0, 0, 0.36);
+		box-shadow: 3px 16px 26px 11px rgba(0, 0, 0, 0.36);
+	}
+	.text-visie {
+		background-color: transparent;
+		padding: 20px 0px 20px 0px;
+		max-width: 100%;
+		border-radius: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+	}
+	.text-visie h1 {
+		order: 1;
+		font-size: 30px;
+		margin-bottom: 20px;
+		color: #167ce9;
+	}
+	.text-visie p {
+		justify-content: center;
+		font-size: 13px;
+		margin: 0;
+		order: 3;
+	}
+
+	.ignareeh {
+		display: flex;
+		flex-direction: column;
+		border-right: none;
+		align-items: center;
+		gap: 15px;
+	}
+	.ignareeh img {
+		padding-right: 0px;
+		padding-bottom: 30px;
+		border-bottom: 5px solid #ffc300;
+		border-right: none;
+		width: 80vw;
+	}
+	.text-ignareeh {
+		margin: 0;
+		min-width: 100%;
+		text-align: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.blauw {
+		font-size: 30px;
+	}
+	.text-ignareeh h1 {
+		font-size: 20px;
+	}
+	.text-ignareeh p {
+		display: flex;
+		justify-content: center;
+		max-width: 80%;
+		font-size: 13px;
+	}
+
+	.button-studie {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.button-studie a {
+		font-size: 13px;
+		width: 50%;
+		margin: 0;
+	}
+
+	.button-ignareeh a {
+		font-size: 13px;
+	}
+
+	.helpcenter2,
+	.helpcenter3 {
+		margin-top: -75px;
+	}
+
+	.helpcenter1,
+	.helpcenter2 {
+		margin-left: -1px;
+	}
 }

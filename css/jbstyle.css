@@ -1,6 +1,11 @@
 .introjb {
 	display: flex;
 	justify-content: left;
+	padding-bottom: 7%;
+}
+
+.introjb img {
+	width: 20%;
 }
 
 .janB {
@@ -9,8 +14,11 @@
 	justify-content: center;
 	width: 80%;
 	margin: auto;
-	margin-top: 10%;
 	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .janInfo {
@@ -19,16 +27,34 @@
 }
 
 .janInfo img {
-	width: 30%;
+	width: 50%;
 	border-right: solid 5px #ffc300;
 	padding-right: 3%;
 }
 
 .janInfo p {
 	flex: 1;
-	margin-left: 3%;
+}
+
+.janText {
+	flex-direction: column;
+	padding-left: 3%;
 }
 
 .headergeel {
-	background-color: #ffc300;
+	text-align: center;
+	background-color: #e6e6e6;
+	padding-bottom: 20%;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+.headergeel p {
+	margin: 2.5%;
+}
+
+.janIntro h1 {
+	margin-left: 100%;
+	width: 100%;
 }
