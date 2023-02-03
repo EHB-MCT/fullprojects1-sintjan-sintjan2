@@ -1,384 +1,384 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 @font-face {
-	font-family: "dmsans-bold";
-	src: url("/sjb-website-ERN/fonts/PPNeueWorld-Regular.otf");
+  font-family: "dmsans-bold";
+  src: url("/sjb-website-ERN/fonts/PPNeueWorld-Regular.otf");
 }
 @font-face {
-	font-family: "dmsans-heavy";
-	src: url("/fonts/DMSans-Bold.ttf");
+  font-family: "dmsans-heavy";
+  src: url("/fonts/DMSans-Bold.ttf");
 }
 
 .geelYear {
-	margin-top: 7%;
-	width: 100%;
-	height: 42vw;
-	position: absolute;
-	background-color: #ffc300;
-	background-image: url(../images/classromm3.png);
-	background-size: 100%;
-	background-position-y: -80px;
-	background-repeat: no-repeat;
+  margin-top: 7%;
+  width: 100%;
+  height: 42vw;
+  position: absolute;
+  background-color: #ffc300;
+  background-image: url(../images/classromm3.png);
+  background-size: 100%;
+  background-position-y: -80px;
+  background-repeat: no-repeat;
 }
 
-.broYear {
-	background-image: url(../images/wave999.png);
-	background-position: top right;
-	background-position-x: 33vw;
-	background-repeat: no-repeat;
-	background-size: 70%;
-	position: relative;
-	top: -1px;
+.waveYear {
+  background-image: url(../images/wave999.png);
+  background-position: top right;
+  background-position-x: 33vw;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  position: relative;
+  top: -1px;
 }
 
-.broYear .intro {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	height: 42vw;
-	width: 90%;
+.waveYear .intro {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 42vw;
+  width: 90%;
 }
 
-.broYear .intro img {
-	width: 30vw;
-	margin: 10vw 10vw 0 0;
-	border-radius: 30vh;
+.waveYear .intro img {
+  width: 30vw;
+  margin: 10vw 10vw 0 0;
+  border-radius: 30vh;
 }
 
-.broYear .intro-text {
-	height: fit-content;
-	width: 38vw;
-	margin: 14vw 0 0 0;
+.waveYear .intro-text {
+  height: fit-content;
+  width: 38vw;
+  margin: 14vw 0 0 0;
 }
 
-.broYear .intro-text h1 {
-	font-family: "dmsans-bold";
-	font-size: 3.8vw;
+.waveYear .intro-text h1 {
+  font-family: "dmsans-bold";
+  font-size: 3.8vw;
 }
 
-.broYear .intro-text p {
-	font-family: "dm sans";
-	color: white;
-	font-size: 1.5vw;
+.waveYear .intro-text p {
+  font-family: "dm sans";
+  color: white;
+  font-size: 1.5vw;
 }
 
 /* first grade content */
 
 .year {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	margin: 6.8vw 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 6.8vw 0 0 0;
 }
 .year .content {
-	width: 90%;
-	margin: 0 auto 0 auto;
+  width: 90%;
+  margin: 0 auto 0 auto;
 }
 .year .triangle {
-	width: 100%;
+  width: 100%;
 }
 .year .content h1 {
-	width: 100%;
-	font-size: 3vw;
-	color: #167ce9;
-	margin: 0 0;
+  width: 100%;
+  font-size: 3vw;
+  color: #167ce9;
+  margin: 0 0;
 }
 .year .content > h1 {
-	margin-top: 5%;
+  margin-top: 5%;
 }
 .year .hours1 {
-	width: 55vw;
+  width: 55vw;
 }
 .year .hours2 {
-	width: 70vw;
+  width: 70vw;
 }
 
 .year .choicepackets {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .year h1 {
-	font-size: 3vw;
-	margin: 80px 0 0 0;
-	font-family: "dmsans-bold";
-	font-weight: 300;
+  font-size: 3vw;
+  margin: 80px 0 0 0;
+  font-family: "dmsans-bold";
+  font-weight: 300;
 }
 
 .year .column {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 150%;
-	width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150%;
+  width: 48%;
 }
 
 .year .column > div {
-	padding-top: 3vw;
+  padding-top: 3vw;
 }
 
 .year .column h3 {
-	margin: 0;
-	padding: 5px;
-	font-family: "DM sans";
-	color: white;
-	background-color: #167ce9;
+  margin: 0;
+  padding: 5px;
+  font-family: "DM sans";
+  color: white;
+  background-color: #167ce9;
 }
 
 .year .column p {
-	padding: 3px;
-	font-family: "DM sans";
-	background-color: #d7f0ff;
-	color: #4c5d66;
-	height: 14vw;
-	font-size: 1.5vw;
+  padding: 3px;
+  font-family: "DM sans";
+  background-color: #d7f0ff;
+  color: #4c5d66;
+  height: 14vw;
+  font-size: 1.5vw;
 }
 
 /* 2nd grade content */
 .year .choicepackets3 {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .year .column3-1 {
-	width: 74%;
+  width: 74%;
 }
 .year .column3-1 h3 {
-	font-family: "DM sans";
-	font-size: 2vw;
+  font-family: "DM sans";
+  font-size: 2vw;
 }
 .year .column3-1 p {
-	font-family: "DM sans";
-	font-size: 1.5vw;
+  font-family: "DM sans";
+  font-size: 1.5vw;
 }
 .year .column3-2 {
-	width: 22%;
+  width: 22%;
 }
 .year .column3-2 img {
-	width: 100%;
-	margin: 10% 0 0 0;
+  width: 100%;
+  margin: 10% 0 0 0;
 }
 
 /* vervolgrichtingen */
 
 .year .later {
-	width: 100%;
+  width: 100%;
 }
 .year .later > h3 {
-	font-family: "DM sans";
-	font-size: 2vw;
+  font-family: "DM sans";
+  font-size: 2vw;
 }
 .year .later > p {
-	font-family: "DM sans";
-	font-size: 1.5vw;
+  font-family: "DM sans";
+  font-size: 1.5vw;
 }
 .year .choices {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .year .choices .column-inside-left {
-	width: 47%;
-	display: flex;
-	flex-direction: column;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
 }
 .year .choices .column-inside-left h3 {
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices .column-inside-left > div {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 0.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
 }
 .year .choices .column-inside-left p {
-	width: 100%;
-	height: 100%;
-	background-color: #d7f0ff;
-	font-family: "DM sans";
-	padding: 0.5vw;
-	font-size: 1.5vw;
+  width: 100%;
+  height: 100%;
+  background-color: #d7f0ff;
+  font-family: "DM sans";
+  padding: 0.5vw;
+  font-size: 1.5vw;
 }
 .year .choices .column-inside-right {
-	width: 47%;
-	display: flex;
-	flex-direction: column;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
 }
 .year .choices .column-inside-right h3 {
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices .column-inside-right > div {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	background-color: #d7f0ff;
-	padding: 0.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d7f0ff;
+  padding: 0.5vw;
 }
 .year .choices .column-inside-right p {
-	font-family: "DM sans";
-	font-size: 1.5vw;
+  font-family: "DM sans";
+  font-size: 1.5vw;
 }
 .year .choices .column-inside-right .left .padding,
 .year .choices .column-inside-right .right .padding {
-	padding: 0 0 0.5vw 0;
+  padding: 0 0 0.5vw 0;
 }
 
 /* economie wetenschappen */
 
 .year .choices2 {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .year .choices2.column-inside-left {
-	width: 50%;
-	display: flex;
-	flex-direction: column;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 .year .choices2 .column-inside-left h3 {
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices2 .column-inside-left > div {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 0.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
 }
 .year .choices2 .column-inside-left p {
-	width: 100%;
-	height: 57%;
-	background-color: #d7f0ff;
-	font-family: "DM sans";
-	padding: 0.5vw;
-	font-size: 1.5vw;
+  width: 100%;
+  height: 57%;
+  background-color: #d7f0ff;
+  font-family: "DM sans";
+  padding: 0.5vw;
+  font-size: 1.5vw;
 }
 .year .choices2 .column-inside-right {
-	width: 65%;
-	display: flex;
-	flex-direction: column;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
 }
 .year .choices2 .column-inside-right h3 {
-	display: flex;
-	justify-content: space-between;
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices2 .column-inside-right h3 span {
-	margin-right: 12.3vw;
+  margin-right: 12.3vw;
 }
 .year .choices2 .column-inside-right > div {
-	width: 100%;
-	height: 8vw;
-	display: flex;
-	justify-content: space-between;
-	background-color: #d7f0ff;
-	padding: 0.5vw;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d7f0ff;
+  padding: 0.5vw;
 }
 .year .choices2 .column-inside-right p {
-	margin-right: 3vw;
-	font-family: "DM sans";
-	font-size: 1.5vw;
+  margin-right: 3vw;
+  font-family: "DM sans";
+  font-size: 1.5vw;
 }
 .year .choices2 .column-inside-right .left .padding,
 .year .choices2 .column-inside-right .right .padding {
-	padding: 0 0 0.5vw 0;
+  padding: 0 0 0.5vw 0;
 }
 
 /* natuurwetenschappen */
 
 .year .choices3 {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .year .choices3 .column-inside-left {
-	width: 28vw;
-	display: flex;
-	flex-direction: column;
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
 }
 .year .choices3 .column-inside-left h3 {
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices3 .column-inside-left > div {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 0.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
 }
 .year .choices3 .column-inside-left p {
-	width: 100%;
-	height: 67%;
-	background-color: #d7f0ff;
-	font-family: "DM sans";
-	padding: 0.5vw;
-	font-size: 1.5vw;
+  width: 100%;
+  height: 67%;
+  background-color: #d7f0ff;
+  font-family: "DM sans";
+  padding: 0.5vw;
+  font-size: 1.5vw;
 }
 .year .choices3 .column-inside-right {
-	width: 65%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .year .choices3 .column-inside-right h3 {
-	display: flex;
-	justify-content: space-between;
-	color: white;
-	font-family: "DM sans";
-	font-size: 1.5vw;
-	width: 100%;
-	background-color: #167ce9;
-	padding: 0.5vw;
-	margin: 2vw 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "DM sans";
+  font-size: 1.5vw;
+  width: 100%;
+  background-color: #167ce9;
+  padding: 0.5vw;
+  margin: 2vw 0 0 0;
 }
 .year .choices3 .column-inside-right h3 span {
-	margin-right: 12.3vw;
+  margin-right: 12.3vw;
 }
 .year .choices3 .column-inside-right > div {
-	width: 100%;
-	height: 8vw;
-	display: flex;
-	justify-content: space-between;
-	background-color: #d7f0ff;
-	padding: 0.5vw;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d7f0ff;
+  padding: 0.5vw;
 }
 .year .choices3 .column-inside-right > div .right {
-	width: 50%;
+  width: 50%;
 }
 .year .choices3 .column-inside-right p {
-	font-family: "DM sans";
-	font-size: 1.5vw;
+  font-family: "DM sans";
+  font-size: 1.5vw;
 }
 .year .choices3 .column-inside-right .left .padding,
 .year .choices3 .column-inside-right .right .padding {
-	padding: 0 0 0.5vw 0;
+  padding: 0 0 0.5vw 0;
 }
 
 .choicefooter {
-	margin-bottom: 20%;
+  margin-bottom: 20%;
 }

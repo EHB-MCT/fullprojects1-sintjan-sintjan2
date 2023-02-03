@@ -1,4 +1,4 @@
-Taha: Home, Inschrijven
+Taha: Home, Inschrijven, responsive example
 
  Achille: Contact, hamburger, Jan Berchmans, video extra layer
 

@@ -1,77 +1,77 @@
 .imgsaintM {
-	width: 250%;
+  width: 50%;
 }
 
 .intro-text h1 {
-	left: 1%;
+  left: 1%;
 }
 .intro-text p {
-	margin-right: 20px;
-	color: white;
+  margin-right: 20px;
+  color: white;
 }
 .het-nieuwe-college {
-	margin: 40px;
-	margin-bottom: 200px;
+  margin: 40px;
+  margin-bottom: 200px;
 }
 
 .het-oude-college {
-	margin: 40px;
-	margin-bottom: 50px;
-	padding: 50px;
+  margin: 40px;
+  margin-bottom: 50px;
+  padding: 50px;
 }
 .hnc {
-	background-color: #167ce9;
-	padding: 50px;
+  background-color: #167ce9;
+  padding: 50px;
 }
 .hnc h2,
 .hnc h3,
 .hnc p {
-	color: white;
+  color: white;
 }
 
 .geelhistoriek {
-	margin-top: 7%;
-	width: 100%;
-	height: 600px;
-	background-color: #ffc300;
-	position: absolute;
+  margin-top: 7%;
+  width: 100%;
+  height: 600px;
+  background-color: #ffc300;
+  position: absolute;
 }
 .bluehistoriek {
-	height: 650px;
+  height: 650px;
 }
 
 .introhistoriek {
-	display: flex;
-	justify-content: center;
-	height: 800px;
-	align-items: center;
-	margin-right: 5%;
-	margin-left: 5%;
-	list-style: none;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  list-style: none;
 }
 @media (max-width: 900px) {
-	.introhistoriek {
-		display: flex;
-		flex-direction: column;
-	}
-	.imgsaintM {
-		width: 70%;
-		margin: 5%;
-	}
-	.geelhistoriek {
-		height: 700px;
-	}
-	.intro-text h1 {
-		left: 1%;
-	}
-	.intro-text p {
-		margin-right: 20px;
-	}
-	.het-oude-college {
-		margin-top: 80px;
-	}
-	.het-nieuwe-college {
-		margin: 40px;
-		margin-bottom: 75px;
-	}
+  .introhistoriek {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgsaintM {
+    width: 70%;
+    margin: 5%;
+  }
+  .geelhistoriek {
+    height: 700px;
+  }
+  .intro-text h1 {
+    left: 1%;
+  }
+  .intro-text p {
+    margin-right: 20px;
+  }
+  .het-oude-college {
+    margin-top: 80px;
+  }
+  .het-nieuwe-college {
+    margin: 40px;
+    margin-bottom: 75px;
+  }
 }

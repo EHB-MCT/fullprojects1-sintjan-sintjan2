@@ -1,139 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 @font-face {
-	font-family: "dmsans-bold";
-	src: url("/fonts/PPNeueWorld-Regular.otf");
+  font-family: "dmsans-bold";
+  src: url("/fonts/PPNeueWorld-Regular.otf");
 }
 @font-face {
-	font-family: "dmsans-heavy";
-	src: url("/fonts/DMSans-Bold.ttf");
+  font-family: "dmsans-heavy";
+  src: url("/fonts/DMSans-Bold.ttf");
 }
 .schoolvisie p {
-	padding-bottom: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .schoolvisie h2 {
-	padding-left: 25px;
-	padding-top: 30px;
-	padding-bottom: 70px;
-	background-image: url(../images/subtitle-wave.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	font-size: 40px;
-	color: white;
-	font-family: "dmsans-bold";
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-image: url(../images/subtitle-wave.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 40px;
+  color: white;
+  font-family: "dmsans-bold";
 }
 .slot {
-	margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .flex-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: normal;
-	align-items: normal;
-	align-content: normal;
-	margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  margin-top: 40px;
 }
 
 .flex-items:nth-child(1) {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .flex-items:nth-child(2) {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .flex-container-text {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: normal;
-	align-items: normal;
-	align-content: normal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
 }
 
 .flex-items-text:nth-child(1) {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
-	padding-bottom: 20px;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-bottom: 20px;
 }
 
 .flex-items-text:nth-child(2) {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 .flex-items-text:nth-child(3) {
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 
 @media (max-width: 700px) {
-	.schoolvisie h2 {
-		background-image: url(../images/subtitle-wave-smallest.png);
-	}
+  .schoolvisie h2 {
+    background-image: url(../images/subtitle-wave-smallest.png);
+  }
 }
 @media (max-width: 1150px) {
-	.schoolvisie h2 {
-		background-image: url(../images/subtitle-wave-small.png);
-		padding-bottom: 4%;
-		padding-top: 2%;
-		font-size: 200%;
-		padding-left: 3%;
-	}
-	.flex-container-text {
-		flex-direction: column;
-	}
-	.introschoolvisie {
-		height: 500px;
-		margin-left: 50%;
-	}
-	.bro {
-		height: 560px;
-	}
-	.slot {
-		margin-bottom: 90px;
-	}
+  .schoolvisie h2 {
+    background-image: url(../images/subtitle-wave-small.png);
+    padding-bottom: 4%;
+    padding-top: 2%;
+    font-size: 200%;
+    padding-left: 3%;
+  }
+  .flex-container-text {
+    flex-direction: column;
+  }
+  .introschoolvisie {
+    height: 500px;
+    margin-left: 50%;
+  }
+  .wave {
+    height: 560px;
+  }
+  .slot {
+    margin-bottom: 90px;
+  }
 }
 @media (max-width: 950px) {
-	.schoolvisie h2 {
-		background-image: url(../images/subtitle-wave-smaller.png);
-		background-position-y: 30%;
-	}
-	.flex-container {
-		flex-direction: column;
-	}
+  .schoolvisie h2 {
+    background-image: url(../images/subtitle-wave-smaller.png);
+    background-position-y: 30%;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
 .introschoolvisie {
-	height: 660px;
-	margin-right: 60%;
+  height: 660px;
+  margin-right: 60%;
 }
 .geelschoolvisie {
-	height: 500px;
+  height: 500px;
 }

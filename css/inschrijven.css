@@ -50,7 +50,7 @@
   height: 50vw;
 }
 
-h2 {
+h3 {
   font-family: "dmsans-heavy";
   font-size: 1.8vw;
 }
@@ -116,15 +116,19 @@ li {
 
 .questions p,
 .questions h1,
-.questions h2,
+.questions h3,
 .questions li {
   color: #fdfdfd;
+}
+footer {
+  margin-top: 200px;
+  bottom: 0;
 }
 @media (max-width: 1015px) {
   h1 {
     font-size: 50px;
   }
-  h2 {
+  h3 {
     font-family: "dmsans-heavy";
     font-size: 24px;
   }
@@ -150,7 +154,7 @@ li {
   h1 {
     font-size: 40px;
   }
-  h2 {
+  h3 {
     font-family: "dmsans-heavy";
     font-size: 20px;
   }
