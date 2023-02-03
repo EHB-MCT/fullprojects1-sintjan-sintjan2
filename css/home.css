@@ -307,6 +307,9 @@
 }
 
 @media (max-width: 1015px) {
+  .intro-home {
+    top: 95px;
+  }
   .visie {
     display: flex;
     flex-direction: column;
@@ -316,20 +319,18 @@
   .text-visie {
     display: flex;
     justify-content: center;
-
     display: block;
     left: 0;
-
     position: static;
     margin: 0;
     margin-top: 20px;
-
     max-width: 70%;
     text-align: center;
   }
 
   .text-visie p {
     max-width: 70%;
+    font-size: 15px;
     align-items: center;
     margin: 0 auto;
   }
@@ -349,7 +350,13 @@
   }
   .text-ignareeh {
     margin-left: 0;
-    max-width: min-content;
+  }
+  .text-ignareeh p {
+    font-size: 15px;
+  }
+
+  .button-studie a {
+    font-size: 15px;
   }
 
   .images-study {
@@ -360,9 +367,16 @@
   .image-study5 {
     margin: 0;
   }
+
+  .button-ignareeh a {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 480px) {
+  .intro-home {
+    top: 150px;
+  }
   .wave {
     height: 300px;
   }
